@@ -86,3 +86,21 @@ body {
     z-index: -1;
     background-color: gray;
 }
+
+.columna {
+    float: left;
+    width: 33%;
+    padding-right: 0px;
+}
+
+.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    height: auto;
+    width: auto;
+
+}
