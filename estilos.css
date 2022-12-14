@@ -15,6 +15,41 @@
     display: flex;
     align-items: center;
 }
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 170%;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-flex-row li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Big Shoulders text', cursive;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
 .section-intro {
     height: 820px;
     background-size: cover;
@@ -23,6 +58,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.text-h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: normal;
+    font-family: 'Oranienbaum';
+}
+
 .section-intro h1 {
     text-align: center;
     color:#ffffff;
@@ -31,6 +74,18 @@
     font-family: 'fuente oranienbaum';
     text-decoration-line: underline;
 }
+
+#fondo {
+    background: url('imagen/Pasta.png');
+    width: inherit;
+    height: 810px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    z-index: -1;
+}
+
 .text-h1 {
     text-align: center;
     font-size: 72px;
@@ -60,3 +115,4 @@
 button:hover{
     background-color: #3b31318a;
 }
+
